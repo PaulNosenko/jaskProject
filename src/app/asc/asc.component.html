@@ -1,0 +1,52 @@
+<div class="container-fluid" style="background:#f0f0f0; padding-right: 0px; padding-left: 0px;">
+<div id='i' class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container " style="background:#0cbbca; color:white"> 
+        <span onclick="document.getElementById('i').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Do you want to buy this item?</h2>
+      </header>
+      <div class="w3-container" style="height: 150px">
+        <h3 style="text-align: center;"> Enter your EMAIL in order to receive confirmation</h3>
+          <input #email (keyup.enter)="sendMessage(email.value)" type="email" email 
+          style="padding-right: 150px; margin-top: 30px; margin-left: 230px;">
+
+          <button (click)="sendMessage(email.value)">Buy</button>
+      
+</div>
+      
+    </div>
+  </div>
+
+<div class="row" style="height:10px; margin-top: 50px;"></div>
+<div class="container">
+
+    <div class="row" style="margin-bottom:20px">
+        <div class="col-xs-4" style="margin-top: -10px; margin-right: -90px;"><h2>Specify your request :</h2></div>
+        <div class="col-xs-8" style="">
+            <a href="/products" class="btn btn-default hvr-float-shadow2" style="border-radius: 100px;">all</a>
+            <a href="/categ/classic" class="btn btn-default hvr-float-shadow2" style="border-radius: 100px;">classic</a>
+            <a href="/categ/smart" class="btn btn-default hvr-float-shadow2" style="border-radius: 100px;">smart watches</a>
+            <a href="/priceDesc" class="btn btn-default hvr-float-shadow2" style="border-radius: 100px;">expensive to cheap</a>
+      </div></div>
+
+<div class="row" *ngFor='let item of all; let i = index' [ngClass]="{'row': (1+i)%4 == 0}">
+  <div class="col-xs-6 col-md-3 thumbnail shade" style="width: 265px; margin-right: 15px;">
+    <a href='products/{{item.name}}'  >
+      <img [src]='item.image' style="height:210px"  
+    onerror="this.src='assets/images/soon.png';">
+    <div class="caption">
+      <hr style="    border-top: 1px solid  #c6bebe"/>
+      <h3 style="font-weight:100px;text-align:center;">{{item.name}} </h3>
+      <h3 style="font-weight:100px;text-align:center;">${{ item.price }} </h3>
+  </div></a>
+  <button type="button" class="btn btn-primary" style="margin-left: 19px;" (click)="addToCart(item)">Add to cart</button>
+  <button type="button" class="btn btn-danger" style="padding: 5px 35px;margin-left: 10px;"
+  onclick="document.getElementById('i').style.display='block'">Buy</button>
+
+  
+    
+  </div>
+  
+</div>
+</div></div>

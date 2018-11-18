@@ -1,0 +1,89 @@
+[ { 
+"id" : 1, 
+"name" : "Gucci  BlackWatch", 
+"description" : "G-Timeless' watch from Gucci. Black strap made of 'GG Original' leather. Gold-tone metal hardware. Dial decorated with gold-tone logo and signature bee. Water-resistant up to 50m. Leather. Stainless Steel. Strap width: 2cm. Diameter of the dial: 4cm. Color: black", 
+"category" : "cl", 
+"price" : 1022, 
+"image" : "/assets/images/w1.jpeg", 
+"logo" : "/assets/images/gucci.png" 
+}, 
+{ 
+"id" : 2, 
+"name" : "Gucci Star", 
+"description" : "Taken from Gucci's 1970s archives, the label's signature bee motif is combined with a star print for a contemporary twist on this black G-Timeless watch. It's crafted from yellow-gold tone PVD metal and features a black leather dial encased in anti-reflective sapphire-crystal glass with a Swiss-made Ronda quartz movement. The smooth leather buckle-fastening wrist straps are embellished with a metallic-gold bee and star print to reflect the house's eclectic styling. Color: black ",
+"category" : "cl", 
+"price" : 890, 
+"image" : "/assets/images/w2.jpeg", 
+"logo" : "/assets/images/gucci.png" 
+}, 
+{ 
+"id" : 3, 
+"name" : "BOSS Red", 
+"description" : "Watch mechanism: chronograph. Strap material: leather. Closure: boss buckle. Date mechanism: multi-eye. Case size: 44 mm. Water resistance (in atm): 5 atm. An impeccable design crafted in rose-gold-plated stainless steel by boss. Inspired by the compass, this expertly engineered three-hand watch features a grey sunray-brush dial with numerical indices, multi-eye functionality and a soft brown leather strap. This timepiece is embedded with features, but with a streamlined elegance for everyday refinement. ", 
+"category" : "cl", 
+"price" : 293, 
+"image" : "/assets/images/w3.jpeg", 
+"logo" : "/assets/images/hugo.png" 
+}, 
+{ 
+"id" : 4, 
+"name" : "Apple Series 3 Silver", 
+"description" : "Stand, Move, and Exercise rings visualize the ways you move each day. See if you are sitting too much. Measure calories burned. And track how many minutes of exercise you’ve done. You can even share your rings with friends. Try new Activity competitions, and let smart coaching give you a nudge when you need it.Track popular workouts like yoga, cycling, swimming, and high-intensity interval training. Track your runs with advanced features for runners like cadence and pace alerts.", 
+"category" : "smart", 
+"price" : 390, 
+"image" : "/assets/images/sw1.jpg",
+"logo" : "/assets/images/appleLogo.png"
+}, 
+{ 
+"id" : 5, 
+"name" : "Apple Series 3 Grey", 
+"description" : "Stand, Move, and Exercise rings visualize the ways you move each day. See if you are sitting too much. Measure calories burned. And track how many minutes of exercise you’ve done. You can even share your rings with friends. Try new Activity competitions, and let smart coaching give you a nudge when you need it.Track popular workouts like yoga, cycling, swimming, and high-intensity interval training. Track your runs with advanced features for runners like cadence and pace alerts.", 
+"category" : "smart", 
+"price" : 390, 
+"image" : "/assets/images/sw2.jpg",
+"logo" : "/assets/images/appleLogo.png"
+},{ 
+"id" : 6, 
+"name" : "BOSS Scheme", 
+"description" : "Watch by BOSS, Let your wrist do the talking, Real leather strap, Two-hand movement, Sub-dial design, Exposed mechanism, Dash indices, Single crown to side, Pin-buckle fastening, Presented in a branded box, 5ATM water resistant to 50 metres (160 feet), Think showering and swimming. With a focus on quality craftsmanship and impeccable design, the BOSS collection offers a premium range of tailoring, athleisure and refined casualwear.Leather/ stainless steel. Color: black", 
+"category" : "cl", 
+"price" : 449, 
+"image" : "/assets/images/w4.jpeg",
+"logo" : "/assets/images/hugo.png" 
+},
+{ 
+"id" : 7, 
+"name" : "Gucci Tiger", 
+"description" : "This Swiss-made fashion watch, durably made with a scratch-resistant, antireflective sapphire face to boldly show off this season's Angry Cat, fits perfectly on the wrist with a soft rubber strap. Color: black", 
+"category" : "cl", 
+"price" : 790, 
+"image" : "/assets/images/w5.jpeg",
+"logo" : "/assets/images/gucci.png"
+}, 
+{ 
+"id" : 8, 
+"name" : "Rolex Submariner", 
+"description" : "Timeless and elegant, this Rolex Datejust watch is beautifully crafted from an18k yellow gold body with a case diameter of 34mm. It comes with a sleek rounded white dial detailed with gold-tone Arabic numerals, gold-tone hands and a date window at the three o' clock position. Powered by an automatic movement, this Swiss-made beauty comes fitted with a bracelet strap for wrist sizes 7.48'' and secured with a clasp closure. Includes: Manual, Outer box, Inner box, Booklet, Warranty. Case Diameter: 34 MM.", 
+"category" : "cl", 
+"price" : 8397, 
+"image" : "/assets/images/w6.jpeg",
+"logo" : "/assets/images/rolex.png"
+}, 
+{ 
+"id" : 9, 
+"name" : "Rolex Metallic Mop", 
+"description" : "Who knew (18K) yellow gold, stainless steel and diamonds could make for such a wonderful combination? Well, the guys at Rolex, that's who. An officially certified chronometer automatic self-winding movement powers this particular Rolex Datejust, whilst a mother of pearl dial complements the original Rolex factory 18K yellow gold and diamond bezel oh so well. A date window at 3'o clock tells you of the said complication on board. Includes: Rolex box and booklet.", 
+"category" : "cl", 
+"price" : 13432, 
+"image" : "/assets/images/w7.jpeg", 
+"logo" : "/assets/images/rolex.png" 
+}, 
+{ 
+"id" : 10, 
+"name" : "Rolex Stainless", 
+"description" : "Part of the iconic Datejust collection from Rolex, this watch is crafted from a stainless steel and 18K yellow gold body with a case of 41 mm in diameter It comes with an officially certified chronometer automatic self-winding movement. It comes with high polished lugs, a Rolex logo on a crown, an18K yellow gold smooth domed bezel and a scratch-resistant sapphire crystal with cyclops magnifier. It comes with a classic black dial with luminous baton hour markers and a date window at 3 o'clock aperture.", 
+"category" : "cl", 
+"price" : 10951, 
+"image" : "/assets/images/w8.jpeg", 
+"logo" : "/assets/images/rolex.png" 
+}]
